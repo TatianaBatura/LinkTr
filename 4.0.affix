@@ -1,0 +1,11 @@
+")" "%" "," "." ":" ";" "?" "!" "''" "'" "'s": RPUNC+;
+"(" "$" "``": LPUNC+;
+
+di lar diler ler: SUF+;
+
+""«»《》【】『』`„“": QUOTES+;
+
+=: INFIXMARK+;
+.=: STEMSUBSCR+;
+
+
