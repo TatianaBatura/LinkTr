@@ -2,3 +2,4 @@
 adamlar yedi
 adamlar elma yedi
 adamlar elma yediler
+adam yedi

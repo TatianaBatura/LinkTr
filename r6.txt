@@ -30,4 +30,13 @@ Found 1 linkage (1 had no P.P. violations) at null count 1
              |     |    |    |    |       |
 LEFT-WALL adam.= =lar elma ye.= =di.= =ler.va3p 
 
+linkparser> No complete linkages found.
+Found 1 linkage (1 had no P.P. violations) at null count 1
+	Unique linkage, cost vector = (UNUSED=1 DIS= 0.00 LEN=1)
+
+            +----S3s----+
+            |    +-Va3s-+
+            |    |      |
+LEFT-WALL adam ye.= =di.va3s 
+
 linkparser> Bye.

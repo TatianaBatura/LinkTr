@@ -1,7 +1,7 @@
 ")" "%" "," "." ":" ";" "?" "!" "''" "'" "'s": RPUNC+;
 "(" "$" "``": LPUNC+;
 
-di lar diler ler: SUF+;
+di lar diler ler um yor mi ni i in diğ ın diğini ini yorum miyorum : SUF+;
 
 ""«»《》【】『』`„“": QUOTES+;
 

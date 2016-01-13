@@ -6,6 +6,33 @@
 % The empty word.
 EMPTY-WORD.zzz: ZZZ-;
 
+
+
+onlar.=: {Pg+};
+=ın.pg: {Pg-} & {OO3+};
+senin: {OO2+};
+
+ne: {R+};
+
+% suffixes for _bilmiyorum_
+=um.v1s : {V1s-} & {S1s-};
+=yor.=: {V1s+} & {Vr-};  % can also be other links like {V2s+} or {V3s+} ??? etc
+=mi.=: {Vn-} & {Vr+};
+
+% suffixes for _istediğini_
+=ni.na: {Na-} & {OV+};
+=i.na: {Na-} & {OV+};
+=i.=: {Na+} & {Np3-} & {OO3-}; 
+=in.=: {Na+} & {Np2-} & {OO2-};
+=diğ.= : {Nv-} & ({Np2+} or {Np3+});
+
+% verbs
+bil.= : ({Vn+} or {Vr+}) & {OV-};
+iste.= : {Nv+} & {R-};
+
+
+
+
 adam: {S3s+};
 adam.=: {Np+};
 =lar: {Np-} & {S3p+};
