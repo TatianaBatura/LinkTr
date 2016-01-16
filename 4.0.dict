@@ -8,6 +8,16 @@ EMPTY-WORD.zzz: ZZZ-;
 
 
 
+kırmızı: {AO+};
+araba.=: {AO-} & {Nl+};
+=da.=: {Nl-} & {Nv+};
+=ki.=: {Nv-} & {Np+};
+=ler.=: {Np-} & {Na+};
+=i.na: {Na-} & {OV+};
+gör.=: {OV-} & {Va1s+};
+=düm.va1s: {Va1s-};
+
+
 onlar.=: {Pg+};
 =ın.pg: {Pg-} & {OO3+};
 senin: {OO2+};
@@ -21,7 +31,7 @@ ne: {R+};
 
 % suffixes for _istediğini_
 =ni.na: {Na-} & {OV+};
-=i.na: {Na-} & {OV+};
+%=i.na: {Na-} & {OV+};
 =i.=: {Na+} & {Np3-} & {OO3-}; 
 =in.=: {Na+} & {Np2-} & {OO2-};
 =diğ.= : {Nv-} & ({Np2+} or {Np3+});
@@ -31,11 +41,15 @@ bil.= : ({Vn+} or {Vr+}) & {OV-};
 iste.= : {Nv+} & {R-};
 
 
-
-
-adam: {S3s+};
-adam.=: {Np+};
+% with null suffix
+adam.=: {Np+} or ({S3s+} & {N+});
 =lar: {Np-} & {S3p+};
+=.n: {N-}; 
+
+
+%adam: {S3s+};
+%adam.=: {Np+};
+%=lar: {Np-} & {S3p+};
 
 elma: {OV+};
 
@@ -47,7 +61,6 @@ ye.=: ({Va3s+} or {Va3p+}) & {OV-};
 
 =di.=: {Vp+} & {Va3p-} & {S3p-};
 =ler.va3p: {Vp-};
-
 
 
 
